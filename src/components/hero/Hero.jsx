@@ -16,15 +16,15 @@ function Hero() {
       </div>
 
       <div className='content p-10 mt-40 ml-20'>
-        <h1 className='text-[4rem] uppercase font-bold leading-[3rem] tracking-tighter text-orange-500 '>
+        <h1 className='text-[4rem] uppercase italic font-medium leading-[3.5rem] tracking-tighter text-[#FF705B] '>
           enjoy the <br /> beauty of <br /> nature!
         </h1>
 
-        <p className='w-60 mt-10 text-[1rem] font-semibold '>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore error quidem consectetur dolorum 
+        <p className='w-60 mt-10 text-[1.2rem] text-[#2F4959] font-normal leading-5 uppercase  italic'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore error 
         </p>
 
-        <button className='text-[1.5rem] bg-orange-500 py-2 px-5 rounded-md flex items-center justify-center uppercase font-semibold tracking-tight text-white mt-10'>
+        <button className='text-[1.5rem] bg-[#FF705B] py-2 px-5 rounded-md flex items-center justify-center uppercase font-semibold tracking-tight text-white mt-10'>
           get started
         </button>
       </div>
