@@ -28,6 +28,10 @@ function Hero() {
           get started
         </button>
       </div>
+
+      <div className=' absolute z-[] w-[25rem] -bottom-28 right-10'>
+        <img src={design2} alt="" />
+      </div>
     </div>
   )
 }

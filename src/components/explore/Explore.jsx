@@ -1,17 +1,18 @@
 import React from 'react'
-import bgimage from '../../assets/Place Your Image Her (1).png'
+import bgImage from '../../assets/explore.png'
+import design2 from '../../assets/Place Your Design He (1).png'
 
 function Explore() {
   return (
     <div
-     style={{backgroundImage: `url(${bgimage})`}}
-     className='w-full h-screen bg-left bg-auto bg-no-repeat relative'>
-      <div className='flex flex-col items-center justify-center mt-10'>
+     style={{backgroundImage: `url(${bgImage})`}}
+     className='w-full h-[180vh]  bg-left bg-auto bg-no-repeat relative'>
+      <div className='flex flex-col items-center justify-center mt-10 p-5'>
         <h1 className='text-[3rem] text-center text-[#FF705B] italic tracking-tighter font-medium'>EXPLORE THE BEST TRIPS</h1>
         <p className='text-[1.7rem] italic uppercase tracking-tighter'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
       </div>
 
-      <div className='container w-[60%] absolute right-0 pt-20'>
+      <div className='container w-[60%] z-10 absolute right-0 pt-20'>
         <div className='p-5 flex items-center justify-center'>
           <div className='w-[15rem] p-5 '>
             <h1 className='text-[#FF705B] italic font-extrabold'>HIKKING EXPEDITION</h1>
@@ -50,6 +51,18 @@ function Explore() {
         </div>
 
        
+      </div>
+
+      <div className=' absolute z-0 w-[20rem] top-58 right-0'>
+        <img src={design2} alt="" />
+      </div>
+
+      <div className=' absolute z-0 w-[20rem] bottom-[12rem] right-0'>
+        <img src={design2} alt="" />
+      </div>
+
+      <div className=' absolute z-0 w-[20rem] top-[40%] left-[45%] scale-x-[-1] '>
+        <img src={design2} alt="" />
       </div>
       
     </div>
